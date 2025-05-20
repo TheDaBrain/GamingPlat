@@ -1,1 +1,1 @@
-# TheNewChannel
+# GamingPlat
