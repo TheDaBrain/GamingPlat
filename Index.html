@@ -2,23 +2,29 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Thenewsclub</title>
-  <a href="https://TheLocalNewsG.com" target="_blank">Visit Main News Website</a>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DaBrain Inc. - Kickflip Mayhem</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>Thenewsclub</h1>
-    <p>by DaBrain – All rights reserved</p>
-  </header>
+  <div class="intro-container">
+    <h1>Welcome to DaBrain Inc.</h1>
+    <h2>Kickflip Mayhem</h2>
+    <p class="logo">🧠 DaBrain Inc.</p>
 
-  <main>
-    <h2>Choose a Game</h2>
-    <ul class="game-list">
-      <li><a href="games/dodge.html">Dodge the Blocks</a></li>
-      <li><a href="games/space.html">Space Blaster</a></li>
-      <li><a href="games/memory.html">Memory Flip</a></li>
-    </ul>
-  </main>
+    <div class="privacy-policy">
+      <p><strong>Privacy Policy</strong></p>
+      <p>By clicking "Accept", you agree not to steal this game and support DaBrain Inc. in creating more amazing games!</p>
+    </div>
+
+    <button id="acceptButton">Accept and Start Game</button>
+  </div>
+
+  <script>
+    document.getElementById('acceptButton').addEventListener('click', () => {
+      // Redirect to the game page after accepting
+      window.location.href = 'game.html';
+    });
+  </script>
 </body>
 </html>
