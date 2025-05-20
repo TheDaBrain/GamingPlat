@@ -1,0 +1,16 @@
+Thenewsclub/
+├── index.html
+├── style.css
+├── games/
+│   ├── dodge.html
+│   ├── space.html
+│   └── memory.html
+├── scripts/
+│   ├── main.js
+│   ├── dodge.js
+│   ├── space.js
+│   └── memory.js
+├── assets/
+│   ├── images/
+│   └── sounds/
+└── README.md
