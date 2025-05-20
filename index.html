@@ -2,12 +2,29 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Kickflip Mayhem</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DaBrain Inc. - Kickflip Mayhem</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Kickflip Mayhem</h1>
-  <canvas id="gameCanvas" width="800" height="500"></canvas>
-  <script src="game.js"></script>
+  <div class="intro-container">
+    <h1>Welcome to DaBrain Inc.</h1>
+    <h2>Kickflip Mayhem</h2>
+    <p class="logo">🧠 DaBrain Inc.</p>
+
+    <div class="privacy-policy">
+      <p><strong>Privacy Policy</strong></p>
+      <p>By clicking "Accept", you agree not to steal this game and support DaBrain Inc. in creating more amazing games!</p>
+    </div>
+
+    <button id="acceptButton">Accept and Start Game</button>
+  </div>
+
+  <script>
+    document.getElementById('acceptButton').addEventListener('click', () => {
+      // Redirect to the game page after accepting
+      window.location.href = 'game.html';
+    });
+  </script>
 </body>
 </html>
